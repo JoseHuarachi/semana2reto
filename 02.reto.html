@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./02-css.css" >
+</head>
+<body>
+    <main class="container-main">
+            <form class="container-form">
+                <h1>Sign Up</h1>
+                  <label class="form-label">First name</label>
+                  <input 
+                  class="form-input"   
+                  type="text">
+                <br>
+                  <label class="form-label">Age</label>
+                  <input 
+                  class="form-input"
+                  type="text">
+                   <br>
+                  <label class="form-label">Income</label>
+                  <input 
+                  class="form-input"
+                  type="text">
+                <br>
+                  <label class="form-label">More info</label>
+                  <textarea rows="5" cols="21"></textarea>
+                <br>
+                  <label class="form-label">Gender</label>
+               <div class="container-radio">    
+                  <br>
+                  <input
+                      type="radio"
+                      name="genero"
+                      value="M"
+                      id="rmasculino">
+                  <label for="rmasculino"
+                  >Male
+                  </label>
+                  <br>
+                  <input
+                      type="radio"
+                      name="genero"
+                      value="F"
+                      id="rfemenino">
+                  <label for="rfemenino"
+                  >Female
+                  </label>
+                  <br>
+                  <input
+                      type="radio"
+                      name="genero"
+                      value="ND"
+                      id="rtrans">
+                  <label for="rtrans"
+                  >Trans
+                  </label>
+               </div>
+                 <br>
+                  <label for="plan" class="form-label">Plan</label>
+                   <input
+                     class="form-input"
+                     type="number"
+                     placeholder="Select plan"
+                     id="plan"
+                   >
+                 <br>
+                 <div class="form-div">
+                   <input
+                         type="checkbox"
+                         id="Subscribe to Newsletter"
+                         > 
+                         <label for="Subscribe to Newsletter">Subscribe to Newsletter</label> 
+                    </div>                
+                   <br>
+                   <input 
+                   class="form-button"
+                   type="submit"
+                     value="Update">
+            </form>
+    </main>        
+</body>
+</html>
